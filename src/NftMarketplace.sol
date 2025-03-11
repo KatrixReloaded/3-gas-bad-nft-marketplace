@@ -27,7 +27,7 @@ contract NftMarketplace is INftMarketplace {
     mapping(address seller => uint256 proceedAmount) private s_proceeds;
 
     /*//////////////////////////////////////////////////////////////
-                               FUNCTIONS
+                            FUNCTIONS
     //////////////////////////////////////////////////////////////*/
     /*
      * @notice Method for listing NFT
